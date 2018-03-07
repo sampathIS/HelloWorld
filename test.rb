@@ -15,8 +15,8 @@ assert_equal 'Hello, world!', last_response.body
 end
 
 def test_with_params
-	get '/Sampath'
-	assert_equal 'Hello, Sampath!', last_response.body
+	get '/Test'
+	assert_equal 'Hello, Test!', last_response.body
 end
 end
 
